@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title> Scrapbook </title>
+</head>
+
+<body>
+
+<div id="container">
+<h1>My Scrapbook</h1>
+<p>See the collection of things I've collected throughout my life!</p>
+
+<ul>
+  {% for thing in things %}
+  <li><a href="/index/{{ thing['number'] }}">{{ thing['title'] }}</a></li>
+  {% endfor %}
+</ul>
+</div>
+
+</body>
+</html>
