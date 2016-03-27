@@ -26,6 +26,7 @@ def get_scrapbook_thing(source, number):
 # run the functions and use variables to hold what they return
 numbers = get_numbers(THINGS)
 
+
 for number in numbers:
     foo = []
     foo.append(get_scrapbook_thing(THINGS, number))
