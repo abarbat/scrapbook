@@ -1,4 +1,7 @@
-THINGS = [{"title":"Turtle","description":"I don't know much about this turtle, but it says 1999 on the back. I was 5!","year":1995,"number":1},
+# coding: utf-8
+
+THINGS = [
+{"title":"Turtle","description":"I don't know much about this turtle, but it says 1999 on the back. I was 5!","year":1995,"number":1},
 {"title":"Third grade class picture","description":"This is my third grade class. I'm right in the middle with the overgrown bangs. I actually still know some of these people!","year":2003,"number":2},
 {"title":"Doodle from a restaurant","description":"This is a doodle my mom made on one of those pieces of paper they wrap around napkins at restaurants. We had a competition between my mom, my sister and me to see who could draw the best animals. My mom won. ","year":2004,"number":3},
 {"title":"First pug card","description":"I used to have an extensive collection of pug cards. This was the first and my favorite. I think the inside said, ","year":2005,"number":4},
@@ -17,4 +20,5 @@ THINGS = [{"title":"Turtle","description":"I don't know much about this turtle, 
 {"title":"CAMP grocery list","description":"This is a grocery list from when I lived with Cassie, Max and Phil (together we made CAMP!). I guess Max didn't need anything that week.","year":2014,"number":17},
 {"title":"Freie Universit&#228t student ID","description":"My Berlin student ID was my most valuable possession in Berlin.","year":2015,"number":18},
 {"title":"Piece of my old fridge","description":"The fridge in my apartment broke recently. I took this piece out of spite.","year":2015,"number":19},
-{"title":"IRE pin","description":"This is the most recent ","year":2016,"number":20}];
+{"title":"IRE pin","description":"This is the most recent ","year":2016,"number":20}
+];

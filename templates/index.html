@@ -13,8 +13,8 @@
 <p>See the collection of things I've collected throughout my life!</p>
 
 <ul>
-  {% for thing in things %}
-  <li><a href="/index/{{ thing['number'] }}">{{ thing['title'] }}</a></li>
+  {% for number in numbers %}
+  <li><a href="/index/{{ number[0] }}">{{ number[1] }}</a></li>
   {% endfor %}
 </ul>
 </div>
